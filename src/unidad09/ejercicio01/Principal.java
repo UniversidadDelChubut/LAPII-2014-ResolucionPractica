@@ -12,6 +12,9 @@ public class Principal {
 			new Thread(fan).start();
 		}
 		
+		Empleado empleado = new Empleado();
+		empleado.start();
+		
 	}
 
 }
